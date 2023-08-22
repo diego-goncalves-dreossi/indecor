@@ -52,7 +52,7 @@
 #subscription-form{
   background-color: var(--secondary);
   padding: 2em;
-  max-width: 22%;
+  max-width: 30%;
 }
 
 #subscription-form p{
@@ -290,10 +290,11 @@
     opacity: 1;
   }
   /*Event fomr*/
-  #event-subscription{
+  #event-description{
     flex-direction: column;
     height: auto;
   }
+
   #disclaimer{
     padding: 2em;
   }
@@ -303,6 +304,10 @@
   #description-form{
     max-width: 70%;
     margin-bottom: 2em;
+  }
+
+  #subscription-form{
+    max-width: 90%;
   }
   /* Benefits section*/
   .benefits{
